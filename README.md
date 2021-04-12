@@ -33,3 +33,7 @@ Purpose of this project is to automate web application "http://automationpractic
 7) **For Cross Browser test**
       1) Navigate to /src/test/resources/config.properties
       2) Update browserName=Chrome to browserName=Edge or browserName=Firefox
+
+
+
+![Screenshot](https://github.com/bintu27/E-CommerceSite_Test_Java/blob/master/Screenshorts/Report.png)
