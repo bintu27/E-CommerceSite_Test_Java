@@ -38,5 +38,5 @@ Report at Scenario level
 ![Screenshot](https://github.com/bintu27/E-CommerceSite_Test_Java/blob/master/Screenshorts/Report.png)
 
 Report at Step level
-![Screenshot](https://github.com/bintu27/E-CommerceSite_Test_Java/blob/master/Screenshorts/Steps.png)
+![Screenshot](https://github.com/bintu27/E-CommerceSite_Test_Java/blob/master/Screenshorts/Steps%20.png)
 
