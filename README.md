@@ -7,10 +7,12 @@ Purpose of this project is to automate web application "http://automationpractic
 
 -> Verify successful placement of any order
 
-      1) Add to cart - women cloth, printed and printer summer dress
-      2) Validate only selected items in checkout screen
-      3) Clear the cart, then select size and pick any 2 cloths and validate selected items on the checkout screen
-      4) Place an order 
+      1) Add to cart - women cloths, 
+            1. Printed dress 
+            2. Printer summer dress
+      3) Validate only selected items in checkout screen
+      4) Clear the cart, then select size and pick any 2 cloths and validate selected items on the checkout screen
+      5) Place an order 
 
 ***This project could be run following broswers:***
 1. Chrome
