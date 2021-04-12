@@ -1,0 +1,6 @@
+{
+    "cucumberautocomplete.gherkinDefinitionPart": "true",
+    "cucumberautocomplete.stepRegExSymbol": "true",
+    "cucumberautocomplete.steps": ["src/main/java/com/test/bintudhillon/steps/*.java"],
+    "cucumberautocomplete.syncfeatures": "test/features/*.feature"
+}

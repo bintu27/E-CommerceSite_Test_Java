@@ -1,0 +1,602 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9290996833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Verify successful placement of any order",
+        "description": "",
+        "id": "add-items-to-cart,-validate-items-and-place-an-order;verify-successful-placement-of-any-order;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 171196167,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 272424542,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4005674250,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6061414917,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fills registration details",
+            "match": {
+              "location": "RegisterPageSteps.user_fills_registration_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35895209,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify registered user on homepage",
+            "match": {
+              "location": "HomePageSteps.verifyRegisteredUserOnHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5338422875,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects \"Printed Summer Dress\" from homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.user_selects_from_homepage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365587667,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify selected product on the product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.verify_selected_item_on_item_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162782625,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User adds item to the cart from product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.user_adds_item_in_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1123467125,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"Printed Summer Dress\" product on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 8
+                }
+              ],
+              "location": "CartPageSteps.verifyProductOnCartPage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73412083,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on continue to shopping button on Cart page",
+            "match": {
+              "location": "CartPageSteps.user_continue_shopping_on_Order_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7854685458,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects \"Printed Dress\" from homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Dress",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.user_selects_from_homepage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237171292,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify selected product on the product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.verify_selected_item_on_item_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80566041,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User adds item to the cart from product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.user_adds_item_in_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1650584833,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify \"Printed Dress\" product on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Dress",
+                  "offset": 8
+                }
+              ],
+              "location": "CartPageSteps.verifyProductOnCartPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1239895834,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User proceeds to checkout from Cart page",
+            "match": {
+              "location": "CartPageSteps.user_proceeds_to_checkout_from_Order_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 529337084,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies product details on Summary page",
+            "match": {
+              "location": "SummaryPageSteps.user_verifies_product_details_on_Summary_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60873566500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clear cart on Summary page",
+            "match": {
+              "location": "SummaryPageSteps.user_clear_cart_on_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4812198125,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "navigate to shopping screen",
+            "match": {
+              "location": "HomePageSteps.clickOnLogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13429459000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User selects \"Faded Short Sleeve T-shirts\" from homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeve T-shirts",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.user_selects_from_homepage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92780166,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User selects size of the dress on product detail page",
+            "match": {
+              "location": "HomePageSteps.user_selects_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78082792,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User adds item to the cart from product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.user_adds_item_in_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3787653333,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify \"Faded Short Sleeve T-shirts\" product on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeve T-shirts",
+                  "offset": 8
+                }
+              ],
+              "location": "CartPageSteps.verifyProductOnCartPage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93481792,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on continue to shopping button on Cart page",
+            "match": {
+              "location": "CartPageSteps.user_continue_shopping_on_Order_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10419273125,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User selects \"Printed Summer Dress\" from homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 14
+                }
+              ],
+              "location": "HomePageSteps.user_selects_from_homepage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89777625,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User selects size of the dress on product detail page",
+            "match": {
+              "location": "HomePageSteps.user_selects_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84161375,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User adds item to the cart from product detail page",
+            "match": {
+              "location": "ProductDetailsPageSteps.user_adds_item_in_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2723841709,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify \"Printed Summer Dress\" product on cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 8
+                }
+              ],
+              "location": "CartPageSteps.verifyProductOnCartPage(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2077749958,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User proceeds to checkout from Cart page",
+            "match": {
+              "location": "CartPageSteps.user_proceeds_to_checkout_from_Order_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509588750,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User verifies product details on Summary page",
+            "match": {
+              "location": "SummaryPageSteps.user_verifies_product_details_on_Summary_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2147815958,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on proceed to checkout button on Summary page",
+            "match": {
+              "location": "SummaryPageSteps.user_clicks_on_proceed_to_checkout_button_on_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 778388167,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify \"Billing Address\" address on Address confirmation page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Billing Address",
+                  "offset": 8
+                }
+              ],
+              "location": "AddressConfirmationSteps.verify_address_on_Address_confirmation_page(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3853531250,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on proceed to checkout button on Address confirmation page",
+            "match": {
+              "location": "AddressConfirmationSteps.user_clicks_on_proceed_to_checkout_button_on_Address_confirmation_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31798792,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Verify terms of service on Shipping page",
+            "match": {
+              "location": "ShippingPageSteps.verify_terms_of_service_on_Shipping_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60864941375,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on agree button on Shipping page",
+            "match": {
+              "location": "ShippingPageSteps.user_click_on_agree_button_on_Shipping_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1291325584,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User click on proceed to checkout on Shipping page",
+            "match": {
+              "location": "ShippingPageSteps.user_click_on_proceed_to_checkout_on_Shipping_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251635458,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Verify product details on Payment page",
+            "match": {
+              "location": "PaymentPageSteps.verify_product_details_on_Payment_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1022577417,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "select \"Pay by check\" as payment method on Payment page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pay by check",
+                  "offset": 8
+                }
+              ],
+              "location": "PaymentPageSteps.select_as_payment_method_on_Payment_page(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2112220583,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on confirm my order button on payment page",
+            "match": {
+              "location": "PaymentPageSteps.user_clicks_on_confirm_my_order_on_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17075750,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify order details on order confirmation page",
+            "match": {
+              "location": "OrderConfirmationPageSteps.verifyOrderConfirmationDetails()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Add items to cart, validate items and place an order",
+    "description": "",
+    "id": "add-items-to-cart,-validate-items-and-place-an-order",
+    "keyword": "Feature",
+    "uri": "placeanorder.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]

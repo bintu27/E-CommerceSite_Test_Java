@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="39" failures="0" name="runner.TestRunner" time="0.326" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16+14"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/bintu/Downloads/EcommerceWebAutomation-master"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/bintu/Downloads/EcommerceWebAutomation-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16+14"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/hk/91x4gj5d3x73fjj3v096rlrw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bintu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="11.2.3"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/bintu"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="bintu"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="16"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Given User is on Homepage of the application" time="0.154"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User navigates to login page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="And User fills registration details" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify registered user on homepage" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User selects &quot;Printed Summer Dress&quot; from homepage" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify selected product on the product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User adds item to the cart from product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify &quot;Printed Summer Dress&quot; product on cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="And User click on continue to shopping button on Cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User selects &quot;Printed Dress&quot; from homepage" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify selected product on the product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User adds item to the cart from product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify &quot;Printed Dress&quot; product on cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User proceeds to checkout from Cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then User verifies product details on Summary page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User clear cart on Summary page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then navigate to shopping screen" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User selects &quot;Faded Short Sleeve T-shirts&quot; from homepage" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then User selects size of the dress on product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User adds item to the cart from product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify &quot;Faded Short Sleeve T-shirts&quot; product on cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="And User click on continue to shopping button on Cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User selects &quot;Printed Summer Dress&quot; from homepage" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then User selects size of the dress on product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User adds item to the cart from product detail page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify &quot;Printed Summer Dress&quot; product on cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User proceeds to checkout from Cart page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then User verifies product details on Summary page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User clicks on proceed to checkout button on Summary page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify &quot;Billing Address&quot; address on Address confirmation page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User clicks on proceed to checkout button on Address confirmation page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify terms of service on Shipping page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When User click on agree button on Shipping page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="And User click on proceed to checkout on Shipping page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify product details on Payment page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="When select &quot;Pay by check&quot; as payment method on Payment page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="And User clicks on confirm my order button on payment page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="Then Verify order details on order confirmation page" time="0"/>
+  <testcase classname="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" name="| Printed Summer Dress | Printed Dress | Faded Short Sleeve T-shirts | Billing Address | Pay by check |" time="0.172"/>
+</testsuite>
